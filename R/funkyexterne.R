@@ -4,5 +4,5 @@ pacman::p_load(here)
 
 source(here("R", "read.R"))
 #spiel und spaß
-ggplot(results, aes(diff, time, group = diff)) + geom_boxplot(color ="darkgreen") + ggtitle("Funky plot") + geom_violin()
+ggplot(results, aes(diff, time, group = diff)) + geom_boxplot(color ="blue") + ggtitle("Funky plot") + geom_violin()
 
